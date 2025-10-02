@@ -1,0 +1,24 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "url shortner api service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start" : "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanlambar/URL-Shortner.git"
+  },
+  "author": "Rohan Lambar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohanlambar/URL-Shortner/issues"
+  },
+  "homepage": "https://github.com/rohanlambar/URL-Shortner#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
