@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "url shortner api service",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "start" : "nodemon src/index.js"
+    "test": "jest",
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,15 @@
   },
   "homepage": "https://github.com/rohanlambar/URL-Shortner#readme",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
   }
 }
