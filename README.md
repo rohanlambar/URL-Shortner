@@ -10,3 +10,9 @@ This repository contain code and description of build of a url shortner from scr
 2. make a request with shorten url and get redirected to original url.
 
 ![Level 1](screenshots/Level1.png)
+
+## Design
+
+![Level 1](screenshots/DesignLevel1.png)
+
+wrote unit test and working on integration test
